@@ -86,8 +86,8 @@ class GameScene: SKScene {
         let location = touch.location(in: self)
         
         // Get the differenct between the start and end point as a vector
-        let dx = (touchStart.x - location.x) * 0.5
-        let dy = (touchStart.y - location.y) * 0.5
+        let dx = (touchStart.x - location.x) * 0.9
+        let dy = (touchStart.y - location.y) * 0.9
         let vector = CGVector(dx: dy, dy: dy)
         
         // Set the Orange dynamic again and apply the vector as an impulse
