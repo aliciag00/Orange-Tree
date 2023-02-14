@@ -8,25 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		30F4A2E6298B392C006DA036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4A2E5298B392C006DA036 /* AppDelegate.swift */; };
-		30F4A2E8298B392C006DA036 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2E7298B392C006DA036 /* GameScene.sks */; };
-		30F4A2EA298B392C006DA036 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2E9298B392C006DA036 /* Actions.sks */; };
+		30F4A2E8298B392C006DA036 /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2E7298B392C006DA036 /* Level-1.sks */; };
 		30F4A2EC298B392C006DA036 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4A2EB298B392C006DA036 /* GameScene.swift */; };
 		30F4A2EE298B392C006DA036 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4A2ED298B392C006DA036 /* GameViewController.swift */; };
 		30F4A2F1298B392C006DA036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2EF298B392C006DA036 /* Main.storyboard */; };
 		30F4A2F3298B392D006DA036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2F2298B392D006DA036 /* Assets.xcassets */; };
 		30F4A2F6298B392D006DA036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2F4298B392D006DA036 /* LaunchScreen.storyboard */; };
+		30F4A2FF298B3DFA006DA036 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A2FE298B3DFA006DA036 /* Smashing-Things.atlas */; };
+		30F4A301298B4413006DA036 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4A300298B4413006DA036 /* Orange.swift */; };
+		30F4A303299AA3AC006DA036 /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A302299AA3AC006DA036 /* Level-2.sks */; };
+		30F4A305299AA8F7006DA036 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A304299AA8F7006DA036 /* Explosion.sks */; };
+		30F4A307299AAFE6006DA036 /* Level-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30F4A306299AAFE6006DA036 /* Level-3.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30F4A2E2298B392C006DA036 /* Orange Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orange Tree.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F4A2E5298B392C006DA036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30F4A2E7298B392C006DA036 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		30F4A2E9298B392C006DA036 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		30F4A2E7298B392C006DA036 /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
 		30F4A2EB298B392C006DA036 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		30F4A2ED298B392C006DA036 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		30F4A2F0298B392C006DA036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30F4A2F2298B392D006DA036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30F4A2F5298B392D006DA036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30F4A2FE298B3DFA006DA036 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		30F4A300298B4413006DA036 /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		30F4A302299AA3AC006DA036 /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
+		30F4A304299AA8F7006DA036 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		30F4A306299AAFE6006DA036 /* Level-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-3.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +68,17 @@
 			isa = PBXGroup;
 			children = (
 				30F4A2E5298B392C006DA036 /* AppDelegate.swift */,
-				30F4A2E7298B392C006DA036 /* GameScene.sks */,
-				30F4A2E9298B392C006DA036 /* Actions.sks */,
+				30F4A2E7298B392C006DA036 /* Level-1.sks */,
+				30F4A302299AA3AC006DA036 /* Level-2.sks */,
+				30F4A306299AAFE6006DA036 /* Level-3.sks */,
+				30F4A304299AA8F7006DA036 /* Explosion.sks */,
 				30F4A2EB298B392C006DA036 /* GameScene.swift */,
 				30F4A2ED298B392C006DA036 /* GameViewController.swift */,
 				30F4A2EF298B392C006DA036 /* Main.storyboard */,
+				30F4A300298B4413006DA036 /* Orange.swift */,
 				30F4A2F2298B392D006DA036 /* Assets.xcassets */,
 				30F4A2F4298B392D006DA036 /* LaunchScreen.storyboard */,
+				30F4A2FE298B3DFA006DA036 /* Smashing-Things.atlas */,
 			);
 			path = "Orange Tree";
 			sourceTree = "<group>";
@@ -130,10 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F4A2F1298B392C006DA036 /* Main.storyboard in Resources */,
-				30F4A2E8298B392C006DA036 /* GameScene.sks in Resources */,
+				30F4A2E8298B392C006DA036 /* Level-1.sks in Resources */,
+				30F4A307299AAFE6006DA036 /* Level-3.sks in Resources */,
 				30F4A2F3298B392D006DA036 /* Assets.xcassets in Resources */,
+				30F4A303299AA3AC006DA036 /* Level-2.sks in Resources */,
+				30F4A2FF298B3DFA006DA036 /* Smashing-Things.atlas in Resources */,
+				30F4A305299AA8F7006DA036 /* Explosion.sks in Resources */,
 				30F4A2F6298B392D006DA036 /* LaunchScreen.storyboard in Resources */,
-				30F4A2EA298B392C006DA036 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +162,7 @@
 				30F4A2EC298B392C006DA036 /* GameScene.swift in Sources */,
 				30F4A2EE298B392C006DA036 /* GameViewController.swift in Sources */,
 				30F4A2E6298B392C006DA036 /* AppDelegate.swift in Sources */,
+				30F4A301298B4413006DA036 /* Orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +314,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +340,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
